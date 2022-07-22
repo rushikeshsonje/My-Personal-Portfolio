@@ -1,0 +1,192 @@
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1200px) {
+    .site-main .site-banner .container .row h1 {
+        font-size: 3.5rem;
+    }
+
+    .site-main>.project-area .project {
+        height: 23rem;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    .site-main .site-banner .container .row h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .site-main .about-area .about-title h2>span {
+        font: normal bold 39px/ 40px var(--roboto);
+        letter-spacing: 8px;
+    }
+
+    .site-main .about-area .about-image {
+        padding-top: 4rem;
+    }
+
+    .site-main>.services-area .services {
+        height: 26rem;
+    }
+
+    .site-main>.project-area .project {
+        height: 26rem;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .site-main .site-banner .banner-image>img {
+        display: none;
+    }
+
+    .site-main .site-banner .site-title {
+        padding-left: 20%;
+    }
+
+    .site-main .site-banner .site-title h3 {
+        padding-top: 8%;
+    }
+
+    .site-main .site-banner .site-title .site-buttons {
+        margin-bottom: 3rem;
+    }
+
+    .site-main .about-area .about-image {
+        display: none;
+    }
+
+    .site-main .about-area .about-title {
+        padding-left: 20%;
+    }
+
+    .site-main>.services-area .services {
+        height: 22rem;
+    }
+
+    .site-main .services-area .services-title h1 {
+        font-size: 30px;
+    }
+
+    .site-main>.project-area .project {
+        height: 22rem;
+    }
+
+    .site-main .project-area .project-title h1 {
+        font-size: 30px;
+    }
+
+    .contact-area h2 {
+        font-size: 30px;
+
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .site-main .about-area .about-title h2>span {
+        font: normal bold 29px/ 30px var(--roboto);
+        letter-spacing: 5px;
+    }
+
+    .site-main .about-area .about-title .paragraph>p {
+        font-size: 15px;
+    }
+    .navbar .container-fluid .collapse .nav-link{
+        font-size: 1rem;
+    }
+    .navbar .container-fluid .navbar-brand{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .site-main .site-banner .container .row h3 {
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    .site-main .site-banner .container .row h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+
+    }
+
+    .site-main .site-banner .container .row h4 {
+        font-size: 1.1rem;
+        margin-top: 3rem;
+
+    }
+
+    .site-main .services-area .services-title h1 {
+        font-size: 22px;
+    }
+    .site-main > .services-area .services .services-img img{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .site-main .project-area .project-title h1 {
+        font-size: 22px;
+    }
+    .site-main > .project-area .project .project-img img{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .contact-area h2 {
+        font-size: 22px;
+
+    }
+
+    .button{
+        padding: .3rem 1rem;
+        font: normal 500 11px/17px var(--roboto);
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .site-main .about-area .about-title {
+        padding-left: 15%;
+    }
+    .site-main .site-banner .container .row h3 {
+        font-size: 1.6rem;
+        margin-top: 3.5rem;
+    }
+
+    .site-main .site-banner .container .row h1 {
+        font-size: 1.6rem;
+        margin-top: 2.5rem;
+
+    }
+
+    .site-main .site-banner .container .row h4 {
+        font-size: .8rem;
+        margin-top: 2.5rem;
+
+    }
+    #contact .card .card-body a, p{
+        font-size: 0.7rem;
+    }
+    .site-main>.services-area .services {
+        height: 24rem;
+    }
+
+    .site-main>.project-area .project {
+        height: 25rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .site-main .about-area .about-title {
+        padding-left: 8%;
+    }
+    .site-main .about-area .about-title h2>span {
+        font: normal bold 22px/ 20px var(--roboto);
+        letter-spacing: 5px;
+    }
+
+    .site-main .about-area .about-title .paragraph>p {
+        font-size: 11px;
+    }
+
+}

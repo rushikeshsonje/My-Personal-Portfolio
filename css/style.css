@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Exo+2:wght@600&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@900&family=Exo+2:wght@600&family=Roboto+Slab&display=swap');
+
+/* css variables */ 
+@import url(./partials/variables.css);
+
+@import url(./partials/global.css);
+
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgb(32 233 223);
+}
+
+.navbar .container-fluid .navbar-brand{
+    font: normal 900 15px/2px var(--roboto);
+    font-size: 1.5rem;
+}
+
+.navbar .container-fluid .collapse .nav-link{
+    font-size: 1.2rem;
+}
+
+
+.site-main .site-banner{
+    width: 100%;
+    background:  rgb(0 253 252 / 10%)
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 28%;
+    font-weight: 500;
+    color: rgb(32 233 223);
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: rgb(32 233 223);
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .container .row h3{
+    margin-top: 5rem;
+    font-size: 3rem;
+
+}
+
+.site-main .site-banner .container .row h1{
+    margin-top: 3rem;
+    font: normal 900 15px/2px var(--roboto);
+    font-size: 4rem;
+    color: rgb(32 233 223);
+}
+
+.site-main .site-banner .container .row h4{
+    font: normal 700 15px/2px var(--roboto);
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    color: rgb(24, 172, 164);
+}
+.site-main .site-banner .banner-image > img{
+    padding: 4rem 0;
+    width: 90rem;
+    margin-top: 3rem;
+}
+
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 0rem 2rem;
+}
+
+.site-main .about-area .container-fluid{
+    margin-top: 0rem;
+}
+
+.site-main .about-area .about-title{
+    margin-top: 5rem;
+}
+
+.site-main .about-area .about-image{
+    margin-top: 7rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 12px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+.site-main .about-area .about-title button{
+    outline: none;
+}
+
+/* End About Area */ 
+
+
+/* Services Area */ 
+
+.site-main .services-area{
+    padding: 4rem 1rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.site-main .services-area .services-title h1{
+    width: 90%;
+    font-size: 35px;
+    font: normal bold 39px/ 50px var(--roboto);
+
+}
+.site-main .services-area .services-title p{
+    width: 100%;
+}
+
+.site-main > .services-area .services{
+    background: rgb(142, 243, 238);
+    padding: .1rem 0;
+    margin: 2rem .5rem;
+    transition: box-shadow .3s ease;
+    height: 21rem;
+    border-radius: 1rem;
+}
+
+.site-main > .services-area .services:hover{
+    background: rgb(77, 245, 236);
+    box-shadow: var(--box-shadow);
+
+}
+
+.site-main > .services-area .services .services-img img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.site-main > .services-area .services .card-body{
+    height: 5rem;
+    margin-top: -2rem;
+}
+
+.site-main > .services-area .services .card-body .card-title{
+    color: rgb(0, 0, 0);
+}
+
+/* End Services Area */ 
+
+/* Services Area */ 
+
+.site-main .project-area{
+    padding: 4rem 1rem;
+}
+
+.site-main .project-area .project-title{
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.site-main .project-area a {
+    text-decoration: none;
+}
+
+.site-main .project-area .project-title h1{
+    font-size: 35px;
+    font: normal bold 39px/ 50px var(--roboto);
+}
+
+.site-main > .project-area .project{
+    background: rgb(142, 243, 238);
+    padding: .1rem 0;
+    margin: 2rem .5rem;
+    transition: box-shadow .3s ease;
+    height: 21rem;
+    border-radius: 1rem;
+}
+
+.site-main > .project-area .project:hover{
+    box-shadow: var(--box-shadow);
+    background: rgb(32 233 223);
+
+}
+
+.site-main > .project-area .project .project-img img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.site-main > .project-area .project .card-body{
+    height: 5rem;
+    margin-top: -2rem;
+}
+.site-main > .project-area .project .card-body .card-title{
+    color: rgb(0, 0, 0);
+}
+/* End Services Area */ 
+
+
+.contact-area{
+    padding: 4rem 0;
+}
+
+.contact-area h2{
+    font: normal bold 39px/ 50px var(--roboto);
+    font-size: 35px;
+
+}
+
+#contact .card svg{
+    margin-bottom: 1rem;
+}
+
+#contact .card:hover svg,#contact .card:hover h4{
+	color: rgb(77, 245, 236);
+}
+
+#contact .card .card-body a{
+    text-decoration: none;
+}
+
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer h3{
+    font: normal bold 29px/ 40px var(--roboto);
+
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+
